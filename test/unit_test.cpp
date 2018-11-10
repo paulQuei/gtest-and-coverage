@@ -39,7 +39,7 @@ TEST_F(UtilityTest, ArithmeticCalculationIsLeapYear) {
     EXPECT_FALSE(util.IsLeapYear(1997));
     EXPECT_TRUE(util.IsLeapYear(2000));
     EXPECT_TRUE(util.IsLeapYear(2016));
-    EXPECT_TRUE(util.IsLeapYear(2018)); // This will fail
+    // EXPECT_TRUE(util.IsLeapYear(2018)); // This will fail
     EXPECT_FALSE(util.IsLeapYear(2100));
 }
 

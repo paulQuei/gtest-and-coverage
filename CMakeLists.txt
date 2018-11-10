@@ -12,4 +12,4 @@ SET(CMAKE_CXX_FLAGS  "${CMAKE_CXX_FLAGS} --coverage")
 add_library(${CMAKE_PROJECT_NAME}_lib src/utility.cpp)
 
 add_executable(unit_test test/unit_test.cpp)
-target_link_libraries(unit_test ${CMAKE_PROJECT_NAME}_lib gtest gtest_main)
+target_link_libraries(unit_test ${CMAKE_PROJECT_NAME}_lib gtest gtest_main pthread)
